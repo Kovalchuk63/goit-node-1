@@ -1,4 +1,4 @@
-import contacts from require("./contacts");
+const contacts = require("./contacts");
 
 const { nanoid } = require("nanoid");
 const { Command } = require("commander");
